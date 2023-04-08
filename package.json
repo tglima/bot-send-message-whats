@@ -1,0 +1,21 @@
+{
+  "name": "bot-send-message-whats",
+  "version": "1.0.0",
+  "description": "Aplicação em NodeJS que utiliza o Selenium para realizar o envio automático de mensagens no Whatsapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Thiago Lima <tglimatech@outlook.com> (https://github.com/tglima/bot-send-message-whats)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tglima/restapi-express-mongodb/issues"
+  },
+  "homepage": "https://github.com/tglima/bot-send-message#readme",  
+  "dependencies": {
+    "chromedriver": "^112.0.0",
+    "node-clipboardy": "^1.0.3",
+    "selenium-webdriver": "^4.8.1"
+  }
+}
